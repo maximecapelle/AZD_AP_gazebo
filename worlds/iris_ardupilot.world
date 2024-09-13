@@ -58,8 +58,8 @@ LOITER> mode LAND
         </constraints>
       </ode>
       <!-- Update rate = 1 / max_step_size for RTF of 1 -->
-      <real_time_update_rate>1000</real_time_update_rate>  <!-- 1000 Hz -->
-      <max_step_size>0.001</max_step_size>  <!-- 1 millisecond -->
+      <real_time_update_rate>400</real_time_update_rate>  <!-- 1000 Hz -->
+      <max_step_size>0.025</max_step_size>  <!-- 1 millisecond -->
     </physics>
 
       <include>
